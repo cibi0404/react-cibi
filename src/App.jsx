@@ -1,10 +1,4 @@
-//creating the second element
-const Hello = ()=>{
-  return(
-    <h1>HELLO WORLD!</h1>
-  )
-}
-
+import Hello from "./components/hello";
 
 
 
@@ -12,8 +6,16 @@ const Hello = ()=>{
  
 function App (){
   return (
-    <Hello/>
-  )
+   
+    <div>
+      <Hello name="REACT"/>
+      <Hello  name="JS"/>
+      <Hello   name= "HTML"/>
+      <Hello name= " CSS"/>
+      <Hello name="ABI"/>
+    </div>
+    
+  ) 
 }
 
 
